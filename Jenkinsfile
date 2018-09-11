@@ -10,7 +10,7 @@ pipeline {
       }
 
       environment {
-        TERM 'xterm'
+        // TERM 'xterm'
       }
 
       steps {
