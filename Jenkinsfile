@@ -9,9 +9,9 @@ pipeline {
         }
       }
 
-      environment {
-        // TERM 'xterm'
-      }
+      // environment {
+      //   // TERM 'xterm'
+      // }
 
       steps {
         sh 'npm ci'
