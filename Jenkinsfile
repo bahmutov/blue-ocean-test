@@ -17,8 +17,8 @@ pipeline {
 
       steps {
         sh 'npm ci'
-        sh 'npm run verify'
-        // sh '$(npm bin)/cypress run --record --key <record_key>'
+        sh 'npm run cy:verify'
+        sh 'npm run cy:run'
       }
     }
   }

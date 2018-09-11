@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "verify": "cypress verify",
-    "run": "cypress run",
-    "open": "cypress open"
+    "cy:verify": "cypress verify",
+    "cy:run": "cypress run",
+    "cy:open": "cypress open"
   },
   "keywords": [],
   "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com> (https://glebbahmutov.com/)",
