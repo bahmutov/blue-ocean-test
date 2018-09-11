@@ -1,13 +1,15 @@
 pipeline {
+  agent {
+    docker {
+      image 'cypress/base:10'
+    }
+  }
+
   stages {
 
     stage('cypress - test') {
 
-      agent {
-        docker {
-          image 'cypress/base:10'
-        }
-      }
+
 
       // environment {
       //   // TERM 'xterm'
